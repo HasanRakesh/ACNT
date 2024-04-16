@@ -4,7 +4,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 160%;
+    line-height: 180%;
     color: #6A6262;;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -122,7 +122,7 @@ button {
 }
 
 .container {
-    max-width: 1200px
+    max-width: 1280px
 }
 .container.wide {
     max-width: 1360px;
@@ -133,21 +133,20 @@ section,
 }
 
 .cta-btn {
-     display: inline-block;
-    border: 1px solid #9057C7;
-    padding: 18px 24px;
-    border-radius: 16px;
-    font-size: 18px;
-    line-height: 100%;
-    color: #9057C7;
-    font-weight: 600
+    display: inline-block;
+    border: 1px solid rgba(245, 41, 33, 0.16);
+    padding: 10px 32px;
+    border-radius: 28px;
+    color: #fff;
 }
 .cta-btn:hover{
-    color: #9057C7;
+    color: #fff;
 }
 .btn_fill {
-    background: #9057C7;
+    background: #F52921;
     color: #fff;
+    padding: 14px 32px;
+    border-radius: 24px;
 }
 .btn_fill:hover{
     color: #fff
@@ -194,18 +193,73 @@ line-height: 110%;
     color: rgba(255, 255, 255, 0.72);
     font-size: 14px
 }
+.header_bg{
+    background: #161212;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08)
+}
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    padding: 8px 0
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-right: 24px
+}
+.header-menu ul li:last-child{
+    margin-right: 0
+}
+.header-menu ul li a{
+    color: #fff
+}
+.header-logo{
+    margin-right: 40px
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/* 03. Hero css */
+.hero-area{
+    padding-top: 80px;
+    padding-bottom: 0;
+    background: #1D1919
+}
+.hero-text .text{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 40px;
+    color: #fff
+}
+.hero-text p{
+    margin-left: 24px;
+    padding-left: 40px;
+    border-left: 2px solid #F52921;
+    color: rgba(255, 255, 255, 0.72);
+    line-height: 180%;
+    margin-bottom: 40px !important;
+}
+.hero-img{
+    position: relative;
+    transform: translateY(80px);
+}
+.hero-img img{
+    border-radius: 48px;
+    width: 100%
+}
+.hero-img::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: -8px;
+    top: -8px;
+    border: 2px solid #fff;
+    border-radius: 48px
+}
 
 
 
