@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #6A6262;;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+.main-wrapper {
+    position: relative;
+    overflow-x: hidden
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #6A6262;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #6A6262;
+}
+
+a:focus,
+input:focus,
+button:focus,
+select:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+input {
+    border: none
+}
+
+img {
+    max-width: 100%;
+    display: block
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #14091F;
+    margin-bottom: 0;
+}
+
+h1,
+.h1 {
+    font-size: 64px;
+    line-height: 110%;
+}
+
+h2,
+.h2 {
+    font-size: 48px;
+    line-height: 100%;
+}
+
+h3,
+.h3 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+h4,
+.h4 {
+    font-size: 26px;
+    line-height: 32px;
+}
+
+h5,
+.h5 {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+p {
+    margin-bottom: 16px;
+}
+
+
+p:last-child {
+    margin-bottom: 0 !important;
+}
+
+button {
+    border: none;
+    transition: all 0.4s ease 0s;
+    background: transparent
+}
+
+.container {
+    max-width: 1200px
+}
+.container.wide {
+    max-width: 1360px;
+}
+section,
+.section {
+    padding: 100px 0
+}
+
+.cta-btn {
+     display: inline-block;
+    border: 1px solid #9057C7;
+    padding: 18px 24px;
+    border-radius: 16px;
+    font-size: 18px;
+    line-height: 100%;
+    color: #9057C7;
+    font-weight: 600
+}
+.cta-btn:hover{
+    color: #9057C7;
+}
+.btn_fill {
+    background: #9057C7;
+    color: #fff;
+}
+.btn_fill:hover{
+    color: #fff
+}
+.section-heading .heading {
+    font-size: 48px;
+    font-weight: 600;
+line-height: 110%;
+    margin-bottom: 48px
+}
+.section-heading .title{
+    margin-bottom: 16px;
+    display: block;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase
+}
+.title{
+    color: #0E141B;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 110%;
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* 02. header css */
+.header-top{
+    background: #0B0909;
+    padding: 16px 0
+}
+.header-top ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+.header-top ul li{
+    margin-left: 24px
+}
+.header-top ul li:first-child{
+    margin-left: 0
+}
+.header-top ul li a{
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 14px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
