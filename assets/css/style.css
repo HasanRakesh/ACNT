@@ -512,9 +512,21 @@ background: #0B0909;
     font-weight: 700;
     font-variant-numeric: lining-nums tabular-nums;
 }
-
-
-
+.single-clients-logo{
+    margin-bottom: 80px;
+    text-align: center
+}
+.single-clients-logo a{
+    display: inline-block
+}
+.single-clients-logo img{
+    margin: 0 auto;
+}
+.clients-action .cta-btn{
+    color: #F52921;
+    border: 1px solid rgba(245, 41, 33, 0.16);
+background: rgba(245, 41, 33, 0.02);
+}
 
 
 
