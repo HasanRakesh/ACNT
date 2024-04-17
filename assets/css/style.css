@@ -66,7 +66,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #14091F;
+    color: #0B0909;
     margin-bottom: 0;
 }
 
@@ -162,7 +162,8 @@ section,
     font-size: 32px;
     font-weight: 700;
     line-height: 120%;
-    margin-bottom: 24px
+    margin-bottom: 24px;
+    color: #0B0909;
 }
 
 .section-heading .title {
@@ -172,9 +173,11 @@ section,
     line-height: 100%;
     color: #F52921;
 }
-
+.section-heading p{
+    margin-bottom: 56px !important
+}
 .title {
-    color: #0E141B;
+    color: #0B0909;
     font-size: 28px;
     font-weight: 600;
     line-height: 110%;
@@ -351,7 +354,6 @@ section,
 }
 .about-video-inn {
     position: relative;
-    margin-top: 56px
 }
 .about-video-box img{
     width: 100%;
