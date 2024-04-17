@@ -5,7 +5,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 180%;
-    color: #6A6262;;
+    color: #6A6262;
+    ;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -124,9 +125,11 @@ button {
 .container {
     max-width: 1240px
 }
+
 .container.wide {
     max-width: 1360px;
 }
+
 section,
 .section {
     padding: 100px 0
@@ -139,96 +142,113 @@ section,
     border-radius: 28px;
     color: #fff;
 }
-.cta-btn:hover{
+
+.cta-btn:hover {
     color: #fff;
 }
+
 .btn_fill {
     background: #F52921;
     color: #fff;
     padding: 14px 32px;
     border-radius: 24px;
 }
-.btn_fill:hover{
+
+.btn_fill:hover {
     color: #fff
 }
+
 .section-heading .heading {
-    font-size: 48px;
-    font-weight: 600;
-line-height: 110%;
-    margin-bottom: 48px
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 24px
 }
-.section-heading .title{
-    margin-bottom: 16px;
+
+.section-heading .title {
     display: block;
-    font-family: 'Mukta', sans-serif;
     font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase
+    text-transform: uppercase;
+    line-height: 100%;
+    color: #F52921;
 }
-.title{
+
+.title {
     color: #0E141B;
     font-size: 28px;
     font-weight: 600;
     line-height: 110%;
-    font-family: 'Urbanist', sans-serif;
 }
 
 /* 02. header css */
-.header-top{
+.header-top {
     background: #0B0909;
     padding: 16px 0
 }
+
 .header-top ul {
     display: flex;
     align-items: center;
     justify-content: flex-end
 }
-.header-top ul li{
+
+.header-top ul li {
     margin-left: 24px
 }
-.header-top ul li:first-child{
+
+.header-top ul li:first-child {
     margin-left: 0
 }
-.header-top ul li a{
+
+.header-top ul li a {
     color: rgba(255, 255, 255, 0.72);
     font-size: 14px
 }
-.header_bg{
+
+.header_bg {
     background: #161212;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08)
 }
-.header-main{
+
+.header-main {
     display: flex;
     align-items: center;
     justify-content: space-between
 }
-.header-nav{
+
+.header-nav {
     display: flex;
     align-items: center;
     padding: 8px 0
 }
-.header-menu ul li{
+
+.header-menu ul li {
     display: inline-block;
     margin-right: 24px
 }
-.header-menu ul li:last-child{
+
+.header-menu ul li:last-child {
     margin-right: 0
 }
-.header-menu ul li a{
+
+.header-menu ul li a {
     color: #fff
 }
-.header-logo{
+
+.header-logo {
     margin-right: 40px
 }
 
 /* 03. Hero css */
-.hero-area{
+.hero-area {
     padding: 80px 0;
-    background: #1D1919;;
+    background: #1D1919;
+    ;
     position: relative;
     z-index: 99
 }
-.hero-area::before{
+
+.hero-area::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -240,6 +260,7 @@ line-height: 110%;
     background-size: cover;
     z-index: -1
 }
+
 .hero-area::after {
     position: absolute;
     content: "";
@@ -252,14 +273,16 @@ line-height: 110%;
     filter: blur(200px);
     z-index: -9;
 }
-.hero-text .text{
+
+.hero-text .text {
     font-size: 52px;
     font-weight: 700;
     line-height: 120%;
     margin-bottom: 40px;
     color: #fff
 }
-.hero-text p{
+
+.hero-text p {
     margin-left: 24px;
     padding-left: 40px;
     border-left: 2px solid #F52921;
@@ -267,20 +290,24 @@ line-height: 110%;
     line-height: 180%;
     margin-bottom: 40px !important;
 }
-.hero-action .cta-btn{
+
+.hero-action .cta-btn {
     border: 1px solid rgba(255, 255, 255, 0.16);
-background: rgba(255, 255, 255, 0.02);
+    background: rgba(255, 255, 255, 0.02);
     margin-left: 16px
 }
+
 .hero-img {
     position: absolute;
     top: 150px;
 }
-.hero-img img{
+
+.hero-img img {
     border-radius: 48px;
     width: 100%
 }
-.hero-img::before{
+
+.hero-img::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -290,17 +317,20 @@ background: rgba(255, 255, 255, 0.02);
     border: 2px solid #fff;
     border-radius: 48px
 }
+
 /* 04. Counter css */
-.counter-area{
+.counter-area {
     padding: 80px 0;
     background: #50CB8B;
 }
-.counter-inn{
+
+.counter-inn {
     display: flex;
     align-items: center;
     justify-content: space-between
 }
-.single-counter-box .counter{
+
+.single-counter-box .counter {
     font-size: 52px;
     font-weight: 700;
     color: #fff;
@@ -308,9 +338,42 @@ background: rgba(255, 255, 255, 0.02);
     display: block;
     line-height: 100%
 }
-.single-counter-box p{
+
+.single-counter-box p {
     color: rgba(255, 255, 255, 0.72)
 }
+
+/* 05. About css */
+
+.about-top {
+    display: flex;
+    justify-content: space-between
+}
+.about-video-inn {
+    position: relative;
+    margin-top: 56px
+}
+.about-video-box img{
+    width: 100%;
+    border-radius: 80px
+}
+.about-video-inn .vdo-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 50%;
+    padding: 24px;
+}
+
+
+
+
+
+
+
+
 
 
 
