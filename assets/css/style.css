@@ -172,6 +172,7 @@ section,
     text-transform: uppercase;
     line-height: 100%;
     color: #F52921;
+    margin-bottom: 16px
 }
 .section-heading p{
     margin-bottom: 56px !important
@@ -528,8 +529,97 @@ background: #0B0909;
 background: rgba(245, 41, 33, 0.02);
 }
 
+/* 07. Testimonial css */
+.testimonial-area{
+    background: #F6F4F4;
+}
+.single-testimonial-box{
+    padding: 24px;
+    background: #fff;
+    border-radius: 40px;
+}
+.testimonial-box-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px
+}
+.testimonial-box-img .main-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%
+}
+.testimonial-box-text .title{
+    margin-bottom: 8px
+}
+.testimonial-box-text span{
+    color: #BAB5B5;
+    margin-bottom: 24px;
+    display: block
+}
+.testimonial-box-text p{
+    color: #6A6262;;
+    line-height: 180%
+}
 
+/* 08. Choose css */
+.choose-area{
+    background: rgba(245, 41, 33, 0.16)
+}
+.single-choose-box{
+    border-radius: 40px;
+background: linear-gradient(216deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    padding: 24px;
+    transition: all 0.3s ease
+}
+.choose-box-img img{
+    display:inline-block;
+    margin-left: auto
+}
+.choose-box-text .title{
+    margin: 16px 0
+}
+.single-choose-box:hover{
+    background: #fff
+}
 
+/* 09. Founder css */
+.founder-area{
+    position: relative
+}
+.founder-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 60%;
+    z-index: -1
+}
+.founder-right{
+    position: relative
+}
+.founder-shape {
+    position: absolute;
+    right: -15%;
+    top: 0;
+    z-index: -1;
+}
+.founder-left-img img{ 
+    border-radius: 40px;
+    width: 100%
+}
+.founder-right-info{
+  position: relative
+}
+.founder-right-info::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    top: -28px;
+    left: 0;
+    background: linear-gradient(90deg, rgba(245, 41, 33, 0.16) 0%, rgba(245, 41, 33, 0.00) 100%);
+}
 
 
 
