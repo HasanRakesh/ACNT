@@ -174,9 +174,11 @@ section,
     color: #F52921;
     margin-bottom: 16px
 }
-.section-heading p{
+
+.section-heading p {
     margin-bottom: 56px !important
 }
+
 .title {
     color: #0B0909;
     font-size: 20px;
@@ -353,13 +355,16 @@ section,
     display: flex;
     justify-content: space-between
 }
+
 .about-video-inn {
     position: relative;
 }
-.about-video-box img{
+
+.about-video-box img {
     width: 100%;
     border-radius: 80px
 }
+
 .about-video-inn .vdo-btn {
     position: absolute;
     top: 50%;
@@ -369,54 +374,66 @@ section,
     border-radius: 50%;
     padding: 24px;
 }
+
 /* 06. Team css */
-.team-area{
+.team-area {
     padding-bottom: 60px
 }
-.single-team-box{
+
+.single-team-box {
     margin-bottom: 40px
 }
-.single-team-box img{
+
+.single-team-box img {
     width: 100%;
     border-radius: 40px;
     margin-bottom: 24px
 }
-.single-team-box .title{
+
+.single-team-box .title {
     margin-bottom: 8px;
 }
 
 
 /* 06. Service css */
-.service-area{
+.service-area {
     border-radius: 40px 40px 0px 0px;
-background: #0B0909;
+    background: #0B0909;
 }
-.service-area .section-heading .heading{
+
+.service-area .section-heading .heading {
     color: #fff
 }
-.service-area .section-heading p{
+
+.service-area .section-heading p {
     color: rgba(255, 255, 255, 0.72)
 }
-.single-service-box{
+
+.single-service-box {
     padding-bottom: 24px;
     margin-bottom: 24px;
     border-bottom: 1px solid rgba(80, 203, 139, 0.16);
 }
-.single-service-box:last-child{
+
+.single-service-box:last-child {
     margin-bottom: 0
 }
-.single-service-box .title{
+
+.single-service-box .title {
     color: #fff;
     margin-bottom: 8px
 }
-.single-service-box p{
+
+.single-service-box p {
     color: rgba(255, 255, 255, 0.72)
 }
+
 .service_ct-area {
     position: relative;
     z-index: 1;
     margin-bottom: 160px
 }
+
 .service_ct-area::before {
     position: absolute;
     content: "";
@@ -427,6 +444,7 @@ background: #0B0909;
     right: 0;
     bottom: 0;
 }
+
 .service_ct-bg {
     position: absolute;
     right: 0;
@@ -441,6 +459,7 @@ background: #0B0909;
     position: relative;
     z-index: 1;
 }
+
 .service_it-bg {
     position: absolute;
     left: 0;
@@ -450,6 +469,7 @@ background: #0B0909;
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
 }
+
 .service_it-area::before {
     position: absolute;
     content: "";
@@ -460,6 +480,7 @@ background: #0B0909;
     left: 0;
     bottom: 0;
 }
+
 .service-ct-action {
     position: absolute;
     width: 120px;
@@ -472,6 +493,7 @@ background: #0B0909;
     left: -60px;
     top: -60px;
 }
+
 .service-it-action {
     position: absolute;
     width: 120px;
@@ -484,12 +506,14 @@ background: #0B0909;
     right: -60px;
     top: -60px;
 }
+
 .service-ct-action span,
-.service-it-action span{
+.service-it-action span {
     display: block;
     color: #fff
 }
-.service-area .service-text{
+
+.service-area .service-text {
     position: relative
 }
 
@@ -503,6 +527,7 @@ background: #0B0909;
     font-weight: 700;
     font-variant-numeric: lining-nums tabular-nums;
 }
+
 .service_it-shape {
     position: absolute;
     right: -55%;
@@ -513,80 +538,96 @@ background: #0B0909;
     font-weight: 700;
     font-variant-numeric: lining-nums tabular-nums;
 }
-.single-clients-logo{
+
+.single-clients-logo {
     margin-bottom: 80px;
     text-align: center
 }
-.single-clients-logo a{
+
+.single-clients-logo a {
     display: inline-block
 }
-.single-clients-logo img{
+
+.single-clients-logo img {
     margin: 0 auto;
 }
-.clients-action .cta-btn{
+
+.clients-action .cta-btn {
     color: #F52921;
     border: 1px solid rgba(245, 41, 33, 0.16);
-background: rgba(245, 41, 33, 0.02);
+    background: rgba(245, 41, 33, 0.02);
 }
 
 /* 07. Testimonial css */
-.testimonial-area{
+.testimonial-area {
     background: #F6F4F4;
 }
-.single-testimonial-box{
+
+.single-testimonial-box {
     padding: 24px;
     background: #fff;
     border-radius: 40px;
 }
-.testimonial-box-img{
+
+.testimonial-box-img {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 24px
 }
-.testimonial-box-img .main-img{
+
+.testimonial-box-img .main-img {
     width: 80px;
     height: 80px;
     border-radius: 50%
 }
-.testimonial-box-text .title{
+
+.testimonial-box-text .title {
     margin-bottom: 8px
 }
-.testimonial-box-text span{
+
+.testimonial-box-text span {
     color: #BAB5B5;
     margin-bottom: 24px;
     display: block
 }
-.testimonial-box-text p{
-    color: #6A6262;;
+
+.testimonial-box-text p {
+    color: #6A6262;
+    ;
     line-height: 180%
 }
 
 /* 08. Choose css */
-.choose-area{
+.choose-area {
     background: rgba(245, 41, 33, 0.16)
 }
-.single-choose-box{
+
+.single-choose-box {
     border-radius: 40px;
-background: linear-gradient(216deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    background: linear-gradient(216deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
     padding: 24px;
-    transition: all 0.3s ease
+    transition: all 0.2s ease
 }
-.choose-box-img img{
-    display:inline-block;
+
+.choose-box-img img {
+    display: inline-block;
     margin-left: auto
 }
-.choose-box-text .title{
+
+.choose-box-text .title {
     margin: 16px 0
 }
-.single-choose-box:hover{
+
+.single-choose-box:hover {
     background: #fff
 }
 
 /* 09. Founder css */
-.founder-area{
+.founder-area {
     position: relative
 }
+
 .founder-bg {
     position: absolute;
     left: 0;
@@ -595,23 +636,28 @@ background: linear-gradient(216deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
     height: 60%;
     z-index: -1
 }
-.founder-right{
+
+.founder-right {
     position: relative
 }
+
 .founder-shape {
     position: absolute;
     right: -15%;
     top: 0;
     z-index: -1;
 }
-.founder-left-img img{ 
+
+.founder-left-img img {
     border-radius: 40px;
     width: 100%
 }
-.founder-right-info{
-  position: relative
+
+.founder-right-info {
+    position: relative
 }
-.founder-right-info::before{
+
+.founder-right-info::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -621,7 +667,89 @@ background: linear-gradient(216deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
     background: linear-gradient(90deg, rgba(245, 41, 33, 0.16) 0%, rgba(245, 41, 33, 0.00) 100%);
 }
 
+/* 10. Contact css */
+.contact-inn {
+    position: relative
+}
 
+.contact-inn::before {
+    position: absolute;
+    content: "";
+    width: 800px;
+    height: 800px;
+    background: rgba(245, 41, 33, 0.16);
+    filter: blur(400px);
+    left: -16%;
+    top: -24%;
+}
 
+.single-contact-box {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    position: relative
+}
 
+.single-contact-box::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(245, 41, 33, 0.16) 0%, rgba(245, 41, 33, 0.00) 100%);
+}
+.single-contact-box span {
+    margin-right: 16px;
+    display: inline-block
+}
+.contact-main-form .col-lg-12{
+    border-bottom: 1px solid rgba(11, 9, 9, 0.08);  
+     padding: 16px 40px
+}
+.contact-main-form .col-lg-12:last-child{
+    padding: 0 40px;
+    border: none
+}
+.contact-main-form label{
+    display: block;
+    font-size: 12px;
+    color: #BAB5B5;
+    margin-bottom: 8px
+}
+.contact-main-form input{
+    color: #0B0909;
+}
+.contact-main-form .contact-query p{
+    font-size: 12px;
+    color: #BAB5B5;
+    margin-bottom: 8px
+}
+.contact-main-form .contact-query span input {
+    display: none
+}
 
+.contact-main-form .contact-query span label {
+    padding: 10px 32px;
+    border-radius: 28px;
+    border: 1px solid rgba(11, 9, 9, 0.24);
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.contact-query span input:checked ~ label {
+    border: 1px solid #672AF4;
+    background: rgba(103, 42, 244, 0.08);
+    color: #672AF4
+}
+.contact-main-form textarea{
+    width: 100%;
+    border: none;
+    padding: none
+}
+.contact-main-form button{
+    width: 100%;
+    margin-top: 24px
+}
