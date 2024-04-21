@@ -668,10 +668,11 @@ section,
 }
 
 /* 10. Contact css */
-.contact-area{
+.contact-area {
     position: relative;
     overflow: hidden
 }
+
 .contact-inn {
     position: relative
 }
@@ -704,32 +705,39 @@ section,
     left: 0;
     background: linear-gradient(90deg, rgba(245, 41, 33, 0.16) 0%, rgba(245, 41, 33, 0.00) 100%);
 }
+
 .single-contact-box span {
     margin-right: 16px;
     display: inline-block
 }
-.contact-main-form .col-lg-12{
-    border-bottom: 1px solid rgba(11, 9, 9, 0.08);  
-     padding: 16px 40px
+
+.contact-main-form .col-lg-12 {
+    border-bottom: 1px solid rgba(11, 9, 9, 0.08);
+    padding: 16px 40px
 }
-.contact-main-form .col-lg-12:last-child{
+
+.contact-main-form .col-lg-12:last-child {
     padding: 0 40px;
     border: none
 }
-.contact-main-form label{
+
+.contact-main-form label {
     display: block;
     font-size: 12px;
     color: #BAB5B5;
     margin-bottom: 8px
 }
-.contact-main-form input{
+
+.contact-main-form input {
     color: #0B0909;
 }
-.contact-main-form .contact-query p{
+
+.contact-main-form .contact-query p {
     font-size: 12px;
     color: #BAB5B5;
     margin-bottom: 8px
 }
+
 .contact-main-form .contact-query span input {
     display: none
 }
@@ -749,20 +757,23 @@ section,
     background: rgba(103, 42, 244, 0.08);
     color: #672AF4
 }
-.contact-main-form textarea{
+
+.contact-main-form textarea {
     width: 100%;
     border: none;
     padding: none
 }
-.contact-main-form button{
+
+.contact-main-form button {
     width: 100%;
     margin-top: 24px
 }
 
 /* 11. newsletter css */
-.newsletter-area{
+.newsletter-area {
     position: relative
 }
+
 .newsletter-area::before {
     position: absolute;
     content: "";
@@ -773,13 +784,14 @@ section,
     background: #0B0909;
     z-index: -1;
 }
-.newsletter-inn{
+
+.newsletter-inn {
     border-radius: 40px 0px 0px 40px;
-background: #0B0909;
+    background: #0B0909;
     padding: 80px 40px;
 }
 
-.newsletter-area .section-heading .heading{
+.newsletter-area .section-heading .heading {
     color: #fff;
     margin-bottom: 0
 }
@@ -790,9 +802,11 @@ background: #0B0909;
     background: rgba(255, 255, 255, 0.08);
     padding: 16px 164px 16px 24px;
 }
-.newsletter-form{
+
+.newsletter-form {
     position: relative
 }
+
 .newsletter-form .btn_fill {
     position: absolute;
     right: 4px;
@@ -801,16 +815,19 @@ background: #0B0909;
     padding: 12px 32px;
     border-radius: 28px;
 }
+
 /* 12. newsletter css */
-.footer-area{
+.footer-area {
     padding: 80px 0
 }
-.footer-heading{
+
+.footer-heading {
     padding-bottom: 40px;
     margin-bottom: 40px;
     position: relative
 }
-.footer-heading::before{
+
+.footer-heading::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -819,25 +836,34 @@ background: #0B0909;
     bottom: 0;
     background: linear-gradient(90deg, rgba(245, 41, 33, 0.16) 0%, rgba(245, 41, 33, 0.00) 100%)
 }
-.footer-heading a{
+
+.footer-heading a {
     display: inline-block;
     margin-bottom: 40px
 }
-.footer-contact ul li{
+.footer-heading p{
+    font-size: 14px
+}
+.footer-contact ul li {
     display: block;
     margin-bottom: 16px
 }
-.footer-contact ul li:last-child{
+
+.footer-contact ul li:last-child {
     margin-bottom: 0
 }
+
 .footer-contact ul li a,
-.footer-contact ul li span{
+.footer-contact ul li span {
     display: inline-block;
     position: relative;
     color: #672AF4;
-    text-decoration: underline
+    text-decoration: underline;
+    font-size: 14px
 }
-.footer-contact ul li a::before, .footer-contact ul li span::before {
+
+.footer-contact ul li a::before,
+.footer-contact ul li span::before {
     position: absolute;
     right: -29px;
     top: 4px;
@@ -848,24 +874,60 @@ background: #0B0909;
     width: 22px;
     height: 22px;
 }
-.footer-social{
+
+.footer-social {
     margin-top: 40px
 }
-.footer-social ul li{
+
+.footer-social ul li {
     display: inline-block;
     margin-right: 8px;
 }
-.footer-social ul li a{
-     width: 40px;
+
+.footer-social ul li a {
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     display: block;
     border: 1px solid #E4E2E2
 }
-.footer-social ul li img{
+
+.footer-social ul li img {
     width: 100%;
     border-radius: 50%
 }
+.footer-link-top{
+    margin-bottom: 80px
+}
+.footer-link span{
+    margin-bottom: 40px;
+    display: block;
+    color: #BAB5B5;
+}
+.footer-link ul li{
+    margin-bottom: 16px
+}
+.footer-link ul li:last-child{
+    margin-bottom: 0
+}
+.footer-link ul li a{
+    font-size: 14px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
