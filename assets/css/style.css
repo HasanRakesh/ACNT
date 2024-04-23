@@ -993,8 +993,9 @@ filter: blur(200px);
     font-size: 52px;
     margin-top: 16px
 }
-.ot-page-radius{
-    position: relative
+.ot-page-radius {
+    position: relative;
+    padding-top: 120px;
 }
 .ot-page-radius::before{
     position: absolute;
@@ -1013,20 +1014,59 @@ filter: blur(200px);
     width: 800px;
 height: 800px;
     border-radius: 800px;
-background: rgba(245, 41, 33, 0.16);
+background: rgba(245, 41, 33, 0.18);
 filter: blur(400px);
     left: -56px;
 top: -56px;
+    z-index: -9
 }
 
+/* 12. Blog css */
+.single-blog-left .newsletter-form input{
+    background: #fff
+}
+.single-blog-right{
+    padding: 24px;
+    border-radius: 24px;
+    background: #fff
+}
+.snbl-text-meta{
+    margin: 24px 0
+}
+.snbl-text-meta li{
+    position: relative;
+    display: inline-block;
+    margin-right: 24px;
+}
+.snbl-text-meta li::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 2px;
+    background: #672AF4;
+    top: 14px;
+    left: -16px;
+    border-radius: 50%;
+}
 
+.snbl-text-meta li:first-child::before {
+    display: none
+}
+.snbl-text-meta li p{
+    color: #672AF4;
+    font-size: 14px
+}
 
-
-
-
-
-
-
+.snbl-right-img img{
+    width: 100%;
+    border-radius: 24px
+}
+.snbl-right-text .title{
+    margin-bottom: 16px
+}
+.snbl-right-text .cta-btn{
+    color: #F52921
+}
 
 
 
