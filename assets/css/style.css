@@ -151,7 +151,7 @@ section,
     background: #F52921;
     color: #fff;
     padding: 14px 32px;
-    border-radius: 24px;
+    border-radius: 28px;
 }
 
 .btn_fill:hover {
@@ -997,16 +997,17 @@ filter: blur(200px);
     position: relative;
     padding-top: 120px;
 }
-.ot-page-radius::before{
+.ot-page-radius::after {
     position: absolute;
     content: "";
-    width: 100%;
-    height: 40px;
-    background: #fff;
-    top: -40px;
-    left: 0;
-    border-radius: 40px 40px 0px 0px;
-    z-index: 9
+    width: 800px;
+    height: 800px;
+    border-radius: 800px;
+    background: rgba(245, 41, 33, 0.18);
+    filter: blur(400px);
+    left: 56px;
+    top: 0;
+    z-index: -9;
 }
 .ot-page-radius::after{
     position: absolute;
@@ -1025,9 +1026,9 @@ top: -56px;
 .single-blog-left .newsletter-form input{
     background: #fff
 }
-.single-blog-right{
+.single-blog-box{
     padding: 24px;
-    border-radius: 24px;
+    border-radius: 40px;
     background: #fff
 }
 .snbl-text-meta{
@@ -1064,14 +1065,38 @@ top: -56px;
 .snbl-right-text .title{
     margin-bottom: 16px
 }
+.snbl-right-text p{
+    margin-bottom: 24px
+}
 .snbl-right-text .cta-btn{
     color: #F52921
 }
 
+.all-blog-area .single-blog-box{
+    margin-bottom: 24px
+}
+.all-blog-action .btn_fill{
+margin-top: 32px;
+    display: inline-block
+}
 
-
-
-
+.all-blog-area{
+    position: relative;
+    z-index: 9
+}
+.all-blog-area::before {
+    width: 960px;
+    height: 960px;
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    border-radius: 960px;
+    background: rgba(245, 41, 33, 0.16);
+    filter: blur(400px);
+    z-index: -1;
+}
 
 
 
