@@ -1323,6 +1323,10 @@ section,
 .other-page-text p {
     margin-bottom: 24px
 }
+.other-page-text a{
+     color: #672AF4;
+    text-decoration: underline
+}
 .other-page-text span{
     color: #0B0909;
     display: block;
@@ -1350,37 +1354,14 @@ section,
 
 .other-page-condition {
     padding-top: 20px;
-    color: #535151;
+}
+.other-page-condition span a{
+    color: #672AF4;
+    text-decoration: underline
 }
 
-.other-page-text ul li {
-    position: relative;
-    padding-left: 16px;
-    color: #535151;
-}
 
-.other-page-c-heading span {
-    color: #97A3B0;
-}
 
-.other-page-text-cookies ul li {
-    padding-left: 0;
-    border-bottom: 1px solid #fff
-}
-
-.other-page-text-cookies ul li::before {
-    display: none
-}
-
-.other-page-text-cookies .name {
-    width: 35%;
-    display: inline-block
-}
-
-.other-page-text-cookies .function {
-    display: inline-block;
-    width: 65%
-}
 
 
 
