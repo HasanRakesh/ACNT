@@ -730,8 +730,8 @@ section,
 
 .contact-main-form input {
     color: #0B0909;
+    background: transparent
 }
-
 .contact-main-form .contact-query p {
     font-size: 12px;
     color: #BAB5B5;
@@ -761,7 +761,8 @@ section,
 .contact-main-form textarea {
     width: 100%;
     border: none;
-    padding: none
+    padding: none;
+    background: transparent
 }
 
 .contact-main-form button {
@@ -801,6 +802,11 @@ section,
     border-radius: 32px;
     background: rgba(255, 255, 255, 0.08);
     padding: 16px 164px 16px 24px;
+    color: #fff
+}
+.newsletter-form input::placeholder{
+    color: #fff;
+    opacity: 0.5
 }
 
 .newsletter-form {
@@ -1050,7 +1056,9 @@ section,
 .single-blog-left .newsletter-form input {
     background: #fff
 }
-
+.single-blog-left .newsletter-form input::placeholder{
+    color: #555
+}
 .single-blog-box {
     padding: 24px;
     border-radius: 40px;
@@ -1359,29 +1367,8 @@ section,
     color: #672AF4;
     text-decoration: underline
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.slick-arrow::before{
+    display: none
+}
 
 

@@ -22,10 +22,9 @@
         $(".testimonial-slider").slick({
             slidesToShow: 2,
             infinite: true,
-            slidesToScroll: 2,
+            slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 9000,
-            fade: true,
             prevArrow: "<button class='slick-prev slick-arrow slick-disabled' aria label='Previous' type='button' aria-disabled='true'><svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48' fill='none'> <rect width='48' height='48' rx='8' fill='white' style='fill:white;fill:white;fill-opacity:1;'/> <path d='M26 20L22 24L26 28' stroke='#0C0909' style='stroke:#0C0909;stroke:color(display-p3 0.0471 0.0353 0.0353);stroke-opacity:1;' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/> </svg><span class='d-none'>PREV</span></button>",
         nextArrow: "<button class='slick-next slick-arrow' aria-label='Next' type='button' aria-disabled='false'><svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48' fill='none'> <rect width='48' height='48' rx='8' fill='white' style='fill:white;fill:white;fill-opacity:1;'/> <path d='M22 28L26 24L22 20' stroke='#0C0909' style='stroke:#0C0909;stroke:color(display-p3 0.0471 0.0353 0.0353);stroke-opacity:1;' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/> </svg><span class='d-none'>NEXT</span></button>",
             responsive: [
