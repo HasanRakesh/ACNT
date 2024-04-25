@@ -145,6 +145,7 @@ section,
 
 .cta-btn:hover {
     color: #fff;
+    background: #F52921;
 }
 
 .btn_fill {
@@ -155,7 +156,8 @@ section,
 }
 
 .btn_fill:hover {
-    color: #fff
+    color: #fff;
+    background: #d62720
 }
 
 .section-heading .heading {
@@ -210,7 +212,9 @@ section,
     color: rgba(255, 255, 255, 0.72);
     font-size: 14px
 }
-
+.header-top ul li a:hover{
+    color: #fff
+}
 .header_bg {
     background: #161212;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08)
@@ -240,7 +244,9 @@ section,
 .header-menu ul li a {
     color: #fff
 }
-
+.header-menu ul li a:hover{
+    color: #F52921
+}
 .header-logo {
     margin-right: 40px
 }
@@ -302,7 +308,10 @@ section,
     background: rgba(255, 255, 255, 0.02);
     margin-left: 16px
 }
-
+.hero-action .cta-btn:hover{
+    background: #F52921;
+    border: 1px solid #F52921
+}
 .hero-img {
     position: absolute;
     top: 150px;
@@ -377,7 +386,7 @@ section,
 
 /* 06. Team css */
 .team-area {
-    padding-bottom: 60px
+    padding-bottom: 120px
 }
 
 .single-team-box {
@@ -488,12 +497,14 @@ section,
     background: #F52921;
     border-radius: 50%;
     text-align: center;
-    line-height: 24px;
+    line-height: 24px;                 
     padding-top: 36px;
     left: -60px;
     top: -60px;
 }
-
+.service-ct-action:hover{
+    background: #d62720
+}
 .service-it-action {
     position: absolute;
     width: 120px;
@@ -506,7 +517,9 @@ section,
     right: -60px;
     top: -60px;
 }
-
+.service-it-action:hover{
+    background: #d62720
+}
 .service-ct-action span,
 .service-it-action span {
     display: block;
@@ -557,7 +570,11 @@ section,
     border: 1px solid rgba(245, 41, 33, 0.16);
     background: rgba(245, 41, 33, 0.02);
 }
-
+.clients-action .cta-btn:hover{
+    background: #F52921;
+    border: 1px solid #F52921;
+    color: #fff
+}
 /* 07. Testimonial css */
 .testimonial-area {
     background: #F6F4F4;
@@ -596,6 +613,27 @@ section,
     color: #6A6262;
     ;
     line-height: 180%
+}
+.testimonial-slider{
+    
+}
+.testimonial-slider::before{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(270deg, #F6F4F4 0.06%, rgba(246, 244, 244, 0.80) 50%, rgba(246, 244, 244, 0.00) 99.94%);
+}
+.testimonial-slider::after{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: linear-gradient(270deg, #F6F4F4 0.06%, rgba(246, 244, 244, 0.80) 50%, rgba(246, 244, 244, 0.00) 99.94%);
 }
 
 /* 08. Choose css */
@@ -710,7 +748,11 @@ section,
     margin-right: 16px;
     display: inline-block
 }
-
+.contact-main-form{
+    padding: 40px;
+    background: #fff;
+    border-radius: 40px
+}
 .contact-main-form .col-lg-12 {
     border-bottom: 1px solid rgba(11, 9, 9, 0.08);
     padding: 16px 40px
@@ -880,7 +922,10 @@ section,
     text-decoration: underline;
     font-size: 14px
 }
-
+.footer-contact ul li a:hover,
+.footer-contact ul li span:hover{
+    color: #F52921
+}
 .footer-contact ul li a::before,
 .footer-contact ul li span::before {
     position: absolute;
@@ -910,7 +955,9 @@ section,
     display: block;
     border: 1px solid #E4E2E2
 }
-
+.footer-social ul li a:hover{
+    transform: translateY(-2px)
+}
 .footer-social ul li img {
     width: 100%;
     border-radius: 50%
@@ -939,7 +986,9 @@ section,
 .footer-link ul li a {
     font-size: 14px
 }
-
+.footer-link ul li a:hover{
+    color: #F52921
+}
 .single-footer-news {
     position: relative;
     margin-bottom: 16px;
@@ -1111,7 +1160,9 @@ section,
 .snbl-right-text .cta-btn {
     color: #F52921
 }
-
+.snbl-right-text .cta-btn:hover{
+    color: #fff
+}
 .all-blog-area .single-blog-box {
     margin-bottom: 24px
 }
