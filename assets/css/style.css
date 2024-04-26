@@ -812,6 +812,12 @@ section,
     margin-top: 24px
 }
 
+.contact-page {
+    overflow: visible
+}
+.contact-page.ot-page-radius::after{
+    display: none
+}
 /* 11. newsletter css */
 .newsletter-area {
     position: relative
@@ -1365,12 +1371,9 @@ section,
 
 
 
-
-
-
+/* 12. Other Page css */
 
 .other-page-text {
-    border-bottom: 2px solid #fff;
     padding: 0 80px
 }
 
@@ -1412,7 +1415,9 @@ section,
 }
 
 .other-page-condition {
-    padding-top: 20px;
+    padding-top: 24px;
+    margin-top: 24px;
+    border-top: 2px solid rgba(11, 9, 9, 0.08);
 }
 .other-page-condition span a{
     color: #672AF4;
@@ -1421,5 +1426,31 @@ section,
 .slick-arrow::before{
     display: none
 }
+
+/* 12. Responsive css */
+
+@media(max-width:1200px){
+    
+}
+@media(max-width:991px){
+    
+}
+@media(max-width:767px){
+    
+}
+@media(max-width:575px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
