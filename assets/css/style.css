@@ -1430,14 +1430,51 @@ section,
 
 @media(max-width:1200px){
     
+    
+    
+    
 }
+
+
 @media(max-width:991px){
     
-}
-@media(max-width:767px){
+    
+    
     
 }
+
+
+@media(max-width:767px){
+    
+    
+    
+    
+}
+
+
 @media(max-width:575px){
+    
+    .header-area{
+        display: none
+    }
+    .hero-img{
+        position: relative;
+        top: 0
+    }
+    .hero-text .text{
+        font-size: 24px;
+        margin:24px 0
+    }
+    .hero-text p{
+        margin-left: 0;
+        padding-left: 24px
+    }
+    .hero-action{
+        text-align: center
+    }
+    
+    
+    
     
 }
 
