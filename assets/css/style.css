@@ -635,7 +635,9 @@ section,
     top: 0;
     background: linear-gradient(270deg, #F6F4F4 0.06%, rgba(246, 244, 244, 0.80) 50%, rgba(246, 244, 244, 0.00) 99.94%);
 }
-
+.testimonial-slider .slick-arrow::before{
+    display: none
+}
 /* 08. Choose css */
 .choose-area {
     background: rgba(245, 41, 33, 0.16)
@@ -1422,9 +1424,6 @@ section,
 .other-page-condition span a{
     color: #672AF4;
     text-decoration: underline
-}
-.slick-arrow::before{
-    display: none
 }
 
 /* 12. Responsive css */
