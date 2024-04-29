@@ -1440,13 +1440,25 @@ section,
      section, .section{
         padding: 100px 0 !important
     }
+    .hero-img{
+        position: static
+    }
+    .hero-img img{
+        width: 75%;
+        border: 2px solid #fff;
+        margin-bottom: 40px
+    }
+    .hero-img::before {
+    display: none
+}
+    .single-counter-box{
+        text-align: center
+    }
      .about-heading {
         text-align: center;
         margin-bottom: 80px
     }
-    .about-heading .section-heading{
-        padding: 0 100px
-    }
+   
     .about-top-action {
         text-align: center !important
     }
@@ -1519,10 +1531,7 @@ border-radius: 40px
     line-height: 28px;
     padding-top: 28px;
 }
-    .testimonial-left .section-heading{
-        text-align: center;
-        padding: 0 100px
-    }
+
     .single-choose-box{
         margin-bottom: 24px
     }
@@ -1550,8 +1559,12 @@ border-radius: 40px
     .footer-logo-desk{
         display: none!important
     }
-    
-    
+    .footer-social{
+        margin-bottom: 40px
+    }
+    .contact-main-form{
+        margin-top: 40px
+    }
     
     
     
